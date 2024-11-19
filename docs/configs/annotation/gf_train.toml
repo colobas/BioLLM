@@ -1,0 +1,16 @@
+# the param for the llm model, to init the foundation model.
+model_used = "geneformer"
+model_type = "CellClassifier"
+#model_file = '../../case/result/anno/geneformer/eye/checkpoint-2320'
+model_file = '../../case//models/geneformer/'
+vocab_file = '/home/share/huadjyin/home/s_huluni/project/bio_model/biollm/case/models/geneformer/gene_vocab.json'
+gene_median_file = '/home/share/huadjyin/home/s_huluni/project/bio_model/biollm/case/models/geneformer/gene_median_dict.json'
+input_file = '/home/share/huadjyin/home/s_qiuping1/workspace/omics_model/bio_model/biollm/case/data/annotation/human/organs/zheng68k/train.h5ad'  # h5ad for the sc express matrix
+output_dir = '../../case/result/anno/geneformer/zheng68k/epoch_15'
+device = 'cuda'
+# annotation task
+label_key = "celltype"
+gene_ensembl_key = 'gene_name'
+epoches=15
+batch_size=32
+finetune=true

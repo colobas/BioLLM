@@ -1,4 +1,4 @@
-## Drug Annotation Task Documentation
+## Drug Sensitive Task Documentation
 
 This document explains the implementation of the `DrugTask` class for drug annotation tasks. It covers the major steps involved in training and evaluating models using various available options like `scGPT`, `scBERT`, `scFoundation`, `Geneformer`, and others. The following sections describe the main features, functions, and usage of the `DrugTask` class in detail.
 

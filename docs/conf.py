@@ -39,9 +39,17 @@ extensions = [
     "recommonmark",
 ]
 autodoc_mock_imports = [
+    "munch",
+    "toml",
+    "scanpy",
+    "gseapy",
     "transformers",
     "torch_geometric",
     "torch",
+    "loompy",
+    "omegaconf",
+    "wandb",
+    "pynvml",
     "accelerate",
     "flash-attn",
     "numpy",
@@ -50,8 +58,7 @@ autodoc_mock_imports = [
     "anndata",
     "tqdm",
     "scib", 
-    "einops",
-    "wandb",
+    "einops"
 ]
 
 

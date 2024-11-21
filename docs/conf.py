@@ -39,9 +39,20 @@ extensions = [
     "recommonmark",
 ]
 autodoc_mock_imports = [
-    "torch", 
-    "munch", 
-    "scanpy"
+    "munch",
+    "toml",
+    "scanpy",
+    "gseapy",
+    "transformers",
+    "torch_geometric",
+    "torch",
+    "loompy",
+    "omegaconf",
+    "wandb",
+    "pynvml",
+    "accelerate",
+    "flash-attn",
+    "nbsphinx",
 ]
 
 

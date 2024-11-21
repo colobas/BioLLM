@@ -3,3 +3,11 @@ sphinx_rtd_theme
 nbsphinx
 nbsphinx_link 
 recommonmark
+munch
+toml
+scanpy
+gseapy
+loompy
+omegaconf
+wandb
+pynvml

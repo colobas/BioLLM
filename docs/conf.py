@@ -52,7 +52,11 @@ autodoc_mock_imports = [
     "pynvml",
     "accelerate",
     "flash-attn",
-    "nbsphinx",
+    "numpy",
+    "pandas",
+    "scipy",
+    "anndata",
+    "tqdm"
 ]
 
 

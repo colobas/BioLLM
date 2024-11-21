@@ -56,7 +56,9 @@ autodoc_mock_imports = [
     "pandas",
     "scipy",
     "anndata",
-    "tqdm"
+    "tqdm",
+    "scib", 
+    "einops"
 ]
 
 

@@ -58,7 +58,12 @@ autodoc_mock_imports = [
     "anndata",
     "tqdm",
     "scib", 
-    "einops"
+    "einops",
+    "biollm.base.load_scbert",
+    "biollm.base.load_scgpt",
+    "biollm.base.load_scfoundation",
+    "biollm.base.bio_task",
+    "biollm.base.load_geneformer",
 ]
 
 

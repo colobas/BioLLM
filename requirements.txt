@@ -11,3 +11,4 @@ wandb
 pynvml
 accelerate==0.32.1
 flash-attn
+nbsphinx

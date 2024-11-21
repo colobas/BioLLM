@@ -39,17 +39,9 @@ extensions = [
     "recommonmark",
 ]
 autodoc_mock_imports = [
-    "munch",
-    "toml",
-    "scanpy",
-    "gseapy",
     "transformers",
     "torch_geometric",
     "torch",
-    "loompy",
-    "omegaconf",
-    "wandb",
-    "pynvml",
     "accelerate",
     "flash-attn",
     "numpy",
@@ -59,11 +51,6 @@ autodoc_mock_imports = [
     "tqdm",
     "scib", 
     "einops",
-    "biollm.base.load_scbert",
-    "biollm.base.load_scgpt",
-    "biollm.base.load_scfoundation",
-    "biollm.base.bio_task",
-    "biollm.base.load_geneformer",
 ]
 
 

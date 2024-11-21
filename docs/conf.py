@@ -51,6 +51,7 @@ autodoc_mock_imports = [
     "tqdm",
     "scib", 
     "einops",
+    "wandb",
 ]
 
 
